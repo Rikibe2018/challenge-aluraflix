@@ -1,0 +1,31 @@
+.campo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.campo label{
+    color: var(--blanco);
+}
+
+.inputCampo{
+    background-color: var(--negro);
+    border: 1px solid var(--griscampos);
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .campo{
+        width: 95%;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+}

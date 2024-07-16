@@ -1,0 +1,56 @@
+.pie {
+    width: 100%;
+    background-color: var(--negro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    box-sizing: border-box;
+
+}
+
+.imgagenLogo {
+    display: block;
+    width: 13%;
+}
+
+.botonHome {
+    display: none;
+}
+
+.linea {
+    width: 100%;
+    display: block;
+    margin: 0;
+    border: none;
+    height: 2px;
+    background: linear-gradient(to bottom, rgb(114, 120, 245), rgb(202, 197, 239));
+}
+
+
+
+
+/* Celular */
+@media screen and (max-width: 425px) {
+
+    .botonHome {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: var(--negro);
+        padding: 3px;
+    }
+
+    .imgenBoton {
+        width: 17%;
+    }
+
+    .imgenPlus {
+        width: 40%;
+    }
+
+    .imgagenLogo {
+        display: none;
+    }
+
+}
+

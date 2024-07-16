@@ -1,0 +1,23 @@
+.boton {
+    background-color: var(--negro);
+    border-radius: 10px;
+    font-weight: 200;
+    padding: 9px 27px;
+    border :2px solid var(--azul); 
+    color: var(--blanco);
+    margin: 23px 9px 0px 0px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    color:#95FFD4;
+}
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+
+     .boton {
+        margin: 0px 0px 16px 0px;
+        padding: 9px 27px;
+    }
+}

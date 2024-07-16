@@ -1,0 +1,225 @@
+.container {
+    background-color: rgba(36, 39, 48, 0.5);
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* Estilos para el contenido del modal */
+.dialogo {
+    /* position: absolute;
+    top: 34px; */
+    width: 33%;
+    background-color: var(--negro);
+    padding: 0;
+    border: 2px solid blue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 7px 40px;
+
+}
+
+.botonSalir {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    color: var(--blanco);
+}
+
+form button {
+    background-color: var(--negro);
+    border: none;
+}
+
+form img {
+    /* padding: 4px; */
+    margin-top: 5px;
+    width: 5vh;
+    /* height: 10%; */
+}
+
+.campoSelectTexarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* width: 100%; */
+
+
+}
+
+textarea {
+    width: 100%;
+    color: var(--blanco);
+    background-color: var(--negro);
+    border: 1px solid var(--griscampos);
+    padding: 15px 15px;
+    border-radius: 10px;
+    /*  outline-color:#6278F7; */
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    resize: none;
+}
+
+.campoTitulo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 30px;
+    /*   margin-bottom: 30px; */
+}
+
+.campoVideo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 30px;
+    /*  margin-bottom: 30px; */
+}
+
+.botonesPie {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    background-color: var(--negro);
+    border: 1px solid var(--griscampos);
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--blanco);
+}
+
+.textoColor {
+    width: 100%;
+    /*  background-color: white; */
+    color: white;
+}
+
+.campoColor {
+    background-color: white;
+    width: 90%;
+}
+
+.divColor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categoria {
+    width: 100%;
+    color: var(--blanco);
+    background-color: var(--negro);
+    border: 1px solid var(--griscampos);
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    label {
+        margin-top: 10px;
+        font-size: 14px;
+
+    }
+
+    .dialogo {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+
+    .campoVideo {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        font-size: 12px;
+        box-sizing: border-box;
+        border-radius: 8px;
+    }
+
+    .inputs {
+        background-color: var(--negro);
+        border: 1px solid var(--griscampos);
+        padding: 12px 12px;
+        border-radius: 10px;
+        font-size: 12px;
+        box-sizing: border-box;
+        width: 90%;
+    }
+
+    .categoria {
+        width: 90%;
+        padding: 12px 12px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+}
+
+
+
+
+/*Mobile*/
+@media screen and (max-width: 425px) {
+    .formulario {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .botonesPie {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 12px;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    textarea {
+        padding: 6px;
+    }
+
+    form img {
+        /* padding: 4px; */
+        margin-top: 2px;
+        width: 3vh;
+        /* height: 10%; */
+    }
+}

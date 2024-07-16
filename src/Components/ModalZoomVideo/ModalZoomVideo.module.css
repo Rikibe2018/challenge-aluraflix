@@ -1,0 +1,59 @@
+.modal_overlay {
+   /*  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgba(36, 39, 48, 0.5);
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .modal_content {
+    width: 50%;
+    background-color: var(--negro);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-radius: 20px;
+    justify-content: center;
+
+  }
+  
+  .modal_content iframe {
+   border: none;
+    width: 560px;
+    height: 315px;
+  }
+
+  .botonSalir {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin:0;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-top: 5px;
+    width: 5vh;
+}
+
+.iframe_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}

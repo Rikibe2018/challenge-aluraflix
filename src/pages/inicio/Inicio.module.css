@@ -1,0 +1,15 @@
+
+.linea{
+    display:none;
+} 
+
+@media screen and (min-width: 425px) {
+    .linea{
+        display: block;
+        margin:0;
+        border: none;
+        height: 2px;
+        background: linear-gradient(to bottom, rgb(114, 120, 245),rgb(202, 197, 239)); 
+    }
+
+}

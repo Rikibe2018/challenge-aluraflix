@@ -1,0 +1,64 @@
+.container{
+    display:flex;
+    position: absolute;
+    top:180px
+}
+.sectionLeft{
+    width: 50%;
+    padding: 10px;
+    margin: 25px;
+    
+}
+
+.botonFrontEnd{
+    display: flex;
+    height: 4.4vh;
+    width: 12vw;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: var(--blanco);
+    background-color: #6BD1FF;
+    border: 1px solid var(--azul);
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 2.2vw;
+    font-weight: bold;
+
+}
+
+.sectionRight{
+    /* width: 50%;
+    height: 100vh; */
+    display:flex;
+    justify-content: end;
+    margin-right: 35px;
+}
+
+.sectionRight img{
+    width: 75%;
+    height: 80%;
+}
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+    .container{
+        display:flex;
+        position: absolute;
+        top:150px
+    }
+    .sectionRight img{
+        width: 73%;
+        height: 52%;
+    }
+ }
+
+/* Celular */
+@media screen and (max-width: 425px) {
+   
+    .container {
+        display: none;
+    }
+       
+}
